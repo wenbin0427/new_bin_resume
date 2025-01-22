@@ -1,10 +1,10 @@
 <template>
     <ul class="nav sticky-top justify-content-center border-1 border-bottom border-warning mt-3 pb-3" style="z-index: 999;background-color: #212121;">
         <li class="nav-item">
-          <a class="nav-link active text-white"  href="./#aboutme">關於我</a>
+          <a class="nav-link active text-white"  href="/#aboutme">關於我</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="./#work">個人作品</a>
+          <a class="nav-link text-white" href="/#work">個人作品</a>
         </li>
         <li class="nav-item">
           <button class="nav-link text-white" :onClick="navigateTocontact">與我聯絡</button>

@@ -9,7 +9,7 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes, // 加載路由配置
+  routes
 })
 
 export default router
