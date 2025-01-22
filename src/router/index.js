@@ -4,6 +4,7 @@ import contact from '../views/contact.vue';
 const routes = [
  {path:'/',name:'index',component: () => import('@/views/index.vue')},
  {path:'/contact',name:'contact',component: () => import('@/views/contact.vue')},
+ {path:'/UpLog',name:'UpLog',component: () => import('@/views/UpLog.vue')},
 
 ]
 

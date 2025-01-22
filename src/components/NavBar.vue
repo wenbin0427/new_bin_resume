@@ -10,7 +10,7 @@
           <button class="nav-link text-white" :onClick="navigateTocontact">與我聯絡</button>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" to="">更新日誌</a>
+            <button class="nav-link text-white" :onClick="navigateTouplog">更新日誌</button>
         </li>
         <li class="nav-item">
             <a class="nav-link text-white" href="https://wenbin0427.github.io/bin_resume.github.io/index.html" target="_blank">舊版個人履歷</a>
@@ -30,6 +30,9 @@
       },
       navigateTowork() {
         this.$router.push('/#work'); // 跳轉到作品
+      },
+      navigateTouplog(){
+        this.$router.push('/UpLog'); // 跳轉到更新日誌
       },
     },
   };
