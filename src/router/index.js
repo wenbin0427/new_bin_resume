@@ -9,7 +9,16 @@ const routes = [
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
-})
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash, // 滾動到目標 ID
+        behavior: 'smooth' // 平滑滾動
+      };
+    }
+    return { top: 0 };
+  }
+});
 
 export default router

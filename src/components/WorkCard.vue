@@ -36,10 +36,10 @@
         data(){
             return {
                 works:[
-                    {id:1,menu:"topicsmenu card border-warning-subtle mt-5",view:"modal-body topicsview",tagbtid:"#work_topics",btid:"work_topics",title:"畢業專題-多元化販賣機",url:"/WorkHtml/topics.html",img:require('@/assets/img/logo.png')},
-                    {id:2,menu:"twsigmenu card border-warning-subtle mt-5",view:"modal-body twsigview",tagbtid:"#work_twsig",btid:"work_twsig",title:"台灣觀光工廠",url:"/WorkHtml/twsightseeing.html",img:require('@/assets/img/rightimg2.png')},
-                    {id:3,menu:"itemsmenu card border-warning-subtle mt-5",view:"modal-body itemsview",tagbtid:"#work_items",btid:"work_items",title:"待辦事項",url:"/WorkHtml/items.html",img:require('@/assets/img/items.png')},
-                    {id:4,menu:"ESP32 card border-warning-subtle mt-5",view:"modal-body iotespsview",tagbtid:"#work_iot",btid:"work_iot",title:"Arduino ESP32實作溫度智慧監測",url:"/WorkHtml/iotesp32.html",img:require('@/assets/img/iotesp32.png')},
+                    {id:1,menu:"topicsmenu card border-warning-subtle mt-5",view:"modal-body topicsview",tagbtid:"#work_topics",btid:"work_topics",title:"畢業專題-多元化販賣機",url:"./WorkHtml/topics.html",img:require('@/assets/img/logo.png')},
+                    {id:2,menu:"twsigmenu card border-warning-subtle mt-5",view:"modal-body twsigview",tagbtid:"#work_twsig",btid:"work_twsig",title:"台灣觀光工廠",url:"./WorkHtml/twsightseeing.html",img:require('@/assets/img/rightimg2.png')},
+                    {id:3,menu:"itemsmenu card border-warning-subtle mt-5",view:"modal-body itemsview",tagbtid:"#work_items",btid:"work_items",title:"待辦事項",url:"./WorkHtml/items.html",img:require('@/assets/img/items.png')},
+                    {id:4,menu:"ESP32 card border-warning-subtle mt-5",view:"modal-body iotespsview",tagbtid:"#work_iot",btid:"work_iot",title:"Arduino ESP32實作溫度智慧監測",url:"./WorkHtml/iotesp32.html",img:require('@/assets/img/iotesp32.png')},
                 ],
             };
         },
