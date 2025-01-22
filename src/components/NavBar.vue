@@ -12,9 +12,6 @@
         <li class="nav-item">
             <button class="nav-link text-white" :onClick="navigateTouplog">更新日誌</button>
         </li>
-        <li class="nav-item">
-            <a class="nav-link text-white" href="https://wenbin0427.github.io/bin_resume.github.io/index.html" target="_blank">舊版個人履歷</a>
-        </li>
     </ul>
   </template>
   
