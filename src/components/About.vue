@@ -52,9 +52,22 @@ export default {
                 },
                 {
                     id: 2,
+                    title_icon: "bi bi-briefcase-fill",
+                    title_text: "經歷",
+                    aos:"fade-left",
+                    contents: [
+                        { id: 1, content_icon: "bi bi-1-circle-fill me-1 fs-5", content_text: "2021/06~2022/06 台南應用科技大學-資訊管理系（會計資訊系統）教學助理" },
+                        { id: 2, content_icon: "bi bi-2-circle-fill me-1 fs-5", content_text: "2021/01~2022/01 臺南市紀安國小-Micro:Bit程式 講師" },
+                        { id: 3, content_icon: "bi bi-3-circle-fill me-1 fs-5", content_text: "2023/01~2024/06 台南應用科技大學-應用英語系 工讀生" },
+                        { id: 4, content_icon: "bi bi-4-circle-fill me-1 fs-5", content_text: "2024/10~2024/12 智慧機械之AI人工智慧技術應用班(青年專班) 結訓" }
+
+                    ],
+                },
+                {
+                    id: 3,
                     title_icon: "bi bi-person-vcard-fill",
                     title_text: "專業證照",
-                    aos:"fade-left",
+                    aos:"fade-right",
                     contents: [
                         { id: 1, content_icon: "bi bi-1-circle-fill me-1 fs-5", content_text: "乙級電腦軟體應用技術士" },
                         { id: 2, content_icon: "bi bi-2-circle-fill me-1 fs-5", content_text: "丙級電腦軟體應用技術士" },
@@ -65,10 +78,10 @@ export default {
                     ],
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title_icon: "bi bi-tools",
                     title_text: "專業能力",
-                    aos:"fade-right",
+                    aos:"fade-left",
                     skills: [
                         { id: 1, icon: require('@/assets/img/html_icon.png'), percentage: "90%" },          //html
                         { id: 2, icon: require('@/assets/img/css_icon.png'), percentage: "85%" },           //css

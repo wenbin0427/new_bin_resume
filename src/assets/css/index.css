@@ -13,15 +13,17 @@
     background-color: #212121;
 }
 .aboutme{
-    height: 190vh;
+    height: 230vh;
 }
 .work{
     height: 230vh;
 }
 
+
+
 @media (min-width: 576px) { 
     .aboutme{
-        height: 140vh;
+        height: 240vh;
     }
  }
 
@@ -36,7 +38,7 @@
 
  @media (min-width: 992px) { 
     .aboutme{
-        height: 180vh;
+        height: 220vh;
     }
     .work{
         height: 150vh;
@@ -45,7 +47,7 @@
 
  @media (min-width: 1200px) { 
     .aboutme{
-        height: 160vh;
+        height: 210vh;
     }
     .work{
         height: 140vh;
