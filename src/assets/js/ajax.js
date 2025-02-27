@@ -34,3 +34,11 @@ $(function () {
     e.preventDefault();
   }).first().click();
 });
+$(function () {
+  $(".DV>button").click(function (e) {
+    $(".DV>button.DVselected").removeClass();
+    $(".DV>button").addClass('btn card-body btn-outline-dark');
+    $(".DVview").load($(this).addClass("DVselected").attr("href"));
+    e.preventDefault();
+  }).first().click();
+});

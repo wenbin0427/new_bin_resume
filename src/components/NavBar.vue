@@ -20,7 +20,7 @@
     name: 'NavBar', // 組件名稱
     methods: {
       navigateTocontact() {
-        this.$router.push('/contact'); // 跳轉到商品頁
+        this.$router.push('/contact'); // 跳轉到與我聯絡
       },
       navigateToabout() {
         this.$router.push('/#aboutme'); // 跳轉到關於我

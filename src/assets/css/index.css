@@ -16,7 +16,7 @@
     height: 250vh;
 }
 .work{
-    height: 230vh;
+    height: 280vh;
 }
 
 
@@ -32,13 +32,13 @@
         height: 200vh;
     }
     .work{
-        height: 160vh;
+        height: 140vh;
     }
  }
 
  @media (min-width: 992px) { 
     .aboutme{
-        height: 220vh;
+        height: 240vh;
     }
     .work{
         height: 150vh;
