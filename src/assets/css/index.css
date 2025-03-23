@@ -1,0 +1,55 @@
+.section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #353535;
+}
+.worksection{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #212121;
+}
+.aboutme{
+    height: 250vh;
+}
+.work{
+    height: 280vh;
+}
+
+
+
+@media (min-width: 576px) { 
+    .aboutme{
+        height: 240vh;
+    }
+ }
+
+ @media (min-width: 768px) { 
+    .aboutme{
+        height: 200vh;
+    }
+    .work{
+        height: 140vh;
+    }
+ }
+
+ @media (min-width: 992px) { 
+    .aboutme{
+        height: 240vh;
+    }
+    .work{
+        height: 150vh;
+    }
+ }
+
+ @media (min-width: 1200px) { 
+    .aboutme{
+        height: 210vh;
+    }
+    .work{
+        height: 140vh;
+    }
+ }
