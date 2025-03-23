@@ -7,7 +7,7 @@
     "homepage": "https://wenbin0427.github.io/new_bin_resume/",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
