@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+  <title>董文賓個人履歷</title>
+
+</head>
+<body style="background-color: #353535">
+  <div class="container">
+    <div class="row">
+      <!-- 輪播圖 -->
+        <div class="col-12">
+            <div id="ViewDiscord_verify" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./WorkHtml/img/dc-1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="./WorkHtml/img/dc-2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./WorkHtml/img/dc-3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./WorkHtml/img/dc-4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./WorkHtml/img/dc-5.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#ViewDiscord_verify" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#ViewDiscord_verify" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </div>
+      <!-- 作品概述 -->
+        <div class="col-12 mt-3">
+            <p class="text-warning fw-semibold fs-5 mt-3">
+            <i class="bi bi-file-earmark-text-fill"></i>
+            作品概述
+            </p>
+            <span class="text-white">
+            &emsp;&emsp;在大學時，我與朋友發現系上與學校缺乏一個能讓同學在線上認識彼此或進行課程交流的平台，因此我們共同創立了 「南應討論版_DIM社群📟」。這個平台的主要用途是為資管系的同學提供課程相關的專屬身分組，但該身分組需要經過審核，因此我們建立了這個驗證平台，讓同學能夠藉由此平台提交申請。
+            </span>
+        </div>
+        <!-- 開發工具 -->
+        <div class="col-12 col-sm-6 mt-3">
+            <p class="text-warning fw-semibold fs-5 ">
+            <i class="bi bi-hammer"></i>          
+            開發工具
+            </p>
+            <ol class="text-white" style="list-style-type:none;">
+            <li class="indent-title-3">前端：Vue、Bootstrap</li>
+            <li class="indent-title-3">後端：PHP、MySQL</li>
+            <li class="indent-title-3">伺服器：Google Cloud Platform VM個體 Ubuntu系統</li>
+            </ol>
+        </div>
+      <!-- 負責項目及主要功能 -->
+        <div class="col-12 col-sm-6">
+            <p class="text-warning fw-semibold fs-5 mt-3">
+            <i class="bi bi-hammer"></i>          
+            負責項目
+            </p>
+            <span class="text-white">
+            &emsp;&emsp;網站架構規劃、網站頁面切版、後端 API 開發
+            </span>
+            <p class="text-warning fw-semibold fs-5 mt-3">
+            <i class="bi bi-lightbulb-fill"></i>          
+            主要功能
+            </p>
+            <span class="text-white">
+            &emsp;&emsp;提供同學線上申請、進度查詢、管理員可使用管理系統進行審核
+            </span>
+            <p class="text-warning fw-semibold fs-5 mt-3">
+            <i class="bi bi-bookmark-fill"></i>        
+            備註
+            </p>
+            <span class="text-white">
+            &emsp;&emsp;目前系統上皆提供假資料進行瀏覽、管理員帳號密碼皆是：admin
+            </span>
+        </div>
+        <div class="col-12 mt-3">
+            <p class="text-warning fw-semibold fs-5 ">
+            <i class="bi bi-globe-americas"></i>
+            相關連結
+            </p>
+            <div class="col-12 col-sm-6 mx-auto">
+                <button type="button" class="btn btn-outline-info mx-auto d-block w-100" onclick="openUrl()">南應討論版📟身分組驗證平台網站</button>
+            </div> 
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openUrl(){
+        window.open('https://iotsvm.shop/discord_verify/dist/index.html#/','_blank');
+    }
+  </script>
+</body>
+</html>
